@@ -1,3 +1,22 @@
-.ontop {
-	top: -700px;
+.ontop {top:-700px}
+@media all and (max-width: 1565px) and (min-width: 520px) {
+	.center-body {
+		margin-top: 30px;
+		height: 520px;
+	}
+}
+@media (max-height: 1008px) and (min-height: 710px) {
+	.footer {top: 30px;}
+	.top {top: 0px;}
+	.ontop {top: -700px;}
+}
+@media (max-height: 1030px) and (min-height: 1009px) {
+	.top {
+		top: 15px;
+	}
+	.center-body {
+		margin-top: 100px;
+		height: 100%;
+	}
+	.footer {top: 25px;}
 }
