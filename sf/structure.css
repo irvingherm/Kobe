@@ -1,6 +1,7 @@
 body, html {
 	margin: 0;
 	background: -webkit-gradient(linear, left bottom, right top, from(#404040), to(#000));
+	background: -moz-linear-gradient(bottom,  #404040,  #000);
 	min-width: 1280px;
 	height: 100%;
 	font-family: 'Goudy Bookletter 1911',Georgia,serif;
@@ -149,6 +150,10 @@ body, html {
 		height: 685px;
 	}
 	.top {top: 20px;}
-	.ontop {top: -953px}
+	.ontop {
+		top: -953px;
+		
+	}
 	.footer {top: 30px;}
 }
+

@@ -3,9 +3,42 @@
 <link rel="stylesheet" href="sf/slide-show/nivo-slider.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="sf/slide-show/style.css" type="text/css" media="screen" />
 <script type="text/javascript" src="sf/slide-show/scripts/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="sf/browser.js"></script>
 <script type="text/javascript" src="sf/slide-show/scripts/jquery.nivo.slider.js"></script>
 <script type="text/javascript">
     $(window).load(function() {
         $('#slider').nivoSlider();
     });
+    if (BrowserDetect.browser == "Safari") {
+    	console.log("it's safari");
+    	
+    	var cssFileName;
+    	cssFileName = 'sf/b-style/safari.css';
+		// Create the element
+	    var cssFileTag = document.createElement("link")
+	    cssFileTag.setAttribute("rel", "stylesheet")
+	    cssFileTag.setAttribute("type", "text/css")
+	    cssFileTag.setAttribute("href", cssFileName)
+	
+	    // Add it to the head section
+	    document.getElementsByTagName("head")[0].appendChild(cssFileTag)
+    	
+    }
+    else if (BrowserDetect.browser == "Firefox") {
+    	console.log(BrowserDetect.browser);
+    	
+    	var cssFileName;
+    	cssFileName = 'sf/b-style/firefox.css';
+		// Create the element
+	    var cssFileTag = document.createElement("link")
+	    cssFileTag.setAttribute("rel", "stylesheet")
+	    cssFileTag.setAttribute("type", "text/css")
+	    cssFileTag.setAttribute("href", cssFileName)
+	
+	    // Add it to the head section
+	    document.getElementsByTagName("head")[0].appendChild(cssFileTag)
+    }
+    else {
+    	console.log(BrowserDetect.browser);
+    }
 </script>
