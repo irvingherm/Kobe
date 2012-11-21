@@ -1,6 +1,2 @@
-.ontop {
-	top: -703px;
-}
-html {
-	overflow: hidden;
-}
+html { overflow: hidden; }
+.ontop { top: -703px; }

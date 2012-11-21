@@ -10,7 +10,6 @@
         $('#slider').nivoSlider();
     });
     if (BrowserDetect.browser == "Safari") {
-    	
     	var cssFileName;
     	cssFileName = 'sf/b-style/safari.css';
 		// Create the element
@@ -22,10 +21,7 @@
 	    // Add it to the head section
 	    document.getElementsByTagName("head")[0].appendChild(cssFileTag)
     	
-    }
-    else if (BrowserDetect.browser == "Firefox") {
-    	console.log(BrowserDetect.browser);
-    	
+    } else if (BrowserDetect.browser == "Firefox") {
     	var cssFileName;
     	cssFileName = 'sf/b-style/firefox.css';
 		// Create the element

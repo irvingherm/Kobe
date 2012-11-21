@@ -112,6 +112,5 @@ var BrowserDetect = {
 			identity: "Linux"
 		}
 	]
-
 };
 BrowserDetect.init();

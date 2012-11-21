@@ -44,7 +44,6 @@ body, html {
 					margin-bottom: 10px;
 				}
 				.top-bottom-left {
-					
 					padding: 10px;
 				}
 					.top-top-left a, .top-bottom-left a {
@@ -136,8 +135,7 @@ body, html {
 		width: 1250px;
 		margin-left: 280px;
 	}
-	.footer{
-		font-size: 20px;}
+	.footer { font-size: 20px;}
 }
 @media all and (max-width: 1564px) and (min-width: 1478px) {
 	.center-body {
@@ -149,11 +147,8 @@ body, html {
 		margin-top: 95px;
 		height: 685px;
 	}
-	.top {top: 20px;}
-	.ontop {
-		top: -953px;
-		
-	}
-	.footer {top: 30px;}
+	.top { top: 20px; }
+	.ontop { top: -953px; }
+	.footer { top: 30px; }
 }
 
