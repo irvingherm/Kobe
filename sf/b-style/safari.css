@@ -6,9 +6,9 @@
 	}
 }
 @media (max-height: 1008px) and (min-height: 710px) {
-	.footer { top: 30px; }
+	.footer { top: -10px; }
 	.top { top: 0px; }
-	.ontop { top: -700px; }
+	.ontop { top: -725px; }
 }
 @media (max-height: 1030px) and (min-height: 1009px) {
 	.top { top: 15px; }
